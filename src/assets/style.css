@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+  @apply pl-2 rounded-sm;
+}
+
+input::placeholder {
+  @apply text-gray-400 italic font-light;
+}
+
+label {
+  @apply leading-none;
+}
